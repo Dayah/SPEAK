@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<schedule>
+	<location name="Greve/Massey">
+		<week beginning="02-10-06">
+			<day>
+				<hour beginning="6">Michelle D. Pfeffer</hour>
+			</day>
+			<day>
+				<hour beginning="6">Michelle D. Pfeffer</hour>
+			</day>
+			<day>
+				<hour beginning="5">Brooke Weeks</hour>
+				<hour beginning="6">Brooke Weeks</hour>
+			</day>
+			<day>
+				<hour beginning="5">Jessica Hite &amp; Anwar Warford</hour>
+				<hour beginning="6">Anward Warford</hour>
+			</day>
+			<day>
+				<hour beginning="5">Katherine Schreider</hour>
+				<hour beginning="6">Aaron T. Driskill</hour>
+			</day>
+		</week>
+	</location>
+
+	<location name="Presidential">
+		<week beginning="02-10-06">
+			<day>
+				<hour beginning="5">Hunter Cannon</hour>
+				<hour beginning="6">Aaron T. Driskill</hour>
+			</day>
+			<day>
+				<hour beginning="5">Michelle D. Pfeffer</hour>
+				<hour beginning="6">John Evans</hour>
+			</day>
+			<day>
+				<hour beginning="5">Craig Crawford</hour>
+				<hour beginning="6">Craig Crawford</hour>
+			</day>
+			<day>
+				<hour beginning="5">Craig Crawford</hour>
+				<hour beginning="6">Craig Crawford</hour>
+			</day>
+			<day>
+				<hour beginning="5">Richard Riley</hour>
+				<hour beginning="6">Richard Riley</hour>
+			</day>
+		</week>
+	</location>
+</schedule>

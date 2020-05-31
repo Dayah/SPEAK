@@ -1,0 +1,6 @@
+AuthUserFile /u09/speak/.htpasswd
+AuthGroupFile /dev/null
+AuthName "SPEAK's Forum Moderation"
+AuthType Basic
+
+require user kabob speak

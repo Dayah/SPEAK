@@ -1,0 +1,36 @@
+BODY{
+   cursor: url("../regcursor.cur");
+   color: 006600;
+   background-image: url("../water3.jpg");
+   background-attachment: fixed;
+   margin-left: 10;
+   font-family: "Arial";
+   font-size: 10pt;
+}
+
+A:link{
+   COLOR: #3f9f3f; 
+   TEXT-DECORATION: none; 
+   font-weight:bold; 
+   cursor: url("../linkcursor.cur");}
+
+A:visited{
+   COLOR: #3f9f3f; 
+   TEXT-DECORATION: none; 
+   font-weight:bold; 
+   cursor: url("../linkcursor.cur");
+}
+
+A:hover{
+   COLOR: #3f9f3f;
+   TEXT-DECORATION: underline;
+   font-weight:bold;
+   cursor: url("../linkcursor.cur");
+}
+
+A:active{
+   COLOR: #3f9f3f;
+   TEXT-DECORATION: none;
+   font-weight:bold;
+   cursor: url("../linkcursor.cur");
+}

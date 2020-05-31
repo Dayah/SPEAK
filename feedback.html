@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="main.css" type="text/css">
+</HEAD>
+<BODY>
+<br>
+<img src="quote.gif" height=90 width=600>
+<div style="width: 600px;">
+<p>
+
+<center>
+<font size=5>Feedback</font>
+</center>
+
+<p>
+We would love to hear from you!!  Comments, suggestions, questions, announcements, even (and especially) evironmental tips would be appreciated.  Your submissions will be posted to the page!!<br>
+<p>
+
+<FORM METHOD="POST" ACTION="/cgi-bin/cgiwrap/speak/commentpost.pl" name="postform">
+<pre>
+<table border=0>
+  <tr>
+    <td>Name (optional):</td>
+    <td><INPUT NAME="name" SIZE="30" MAXLENGTH="30" TYPE="text"></td>
+  </tr>
+
+  <tr>
+    <td>Group/Organization (optional):</td>
+    <td><input type="text" name="group" size="30" maxlength="60"></td>
+  </tr>
+
+  <tr>
+    <td>Comments:</td>
+    <td><TEXTAREA NAME="commenttext" ROWS="6" COLS="50" wrap="virtual"></TEXTAREA></td>
+  </tr>
+  
+  <tr align=center>
+    <td colspan=2>
+    <INPUT TYPE="submit" VALUE="Send" onClick="if(document.postform.commenttext.value==''){alert('No Comments Made.'); return false;}">
+    <INPUT TYPE="reset" VALUE="Clear">
+    </td>
+  </tr>
+</table>
+</pre>
+</FORM>
+
+<p>
+<p>
+<i>Note:  Please be considerate.  These posts are under moderation.</i>
+
+</div>
+</body>
+</html>
